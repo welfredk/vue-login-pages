@@ -12,7 +12,7 @@
         <Input htmlType="password" :value="password" @update:value="password = $event" />
         <ButtonBox buttonText="Sign up" :handleClick="signup"/>
         <div class="googleButton">
-          <GoogleSignInButton buttonText="Sign un with Google" :handleClick="googleSignin"/>
+          <GoogleSignInButton buttonText="Sign up with Google" :handleClick="googlesignUp"/>
         </div>
       </div>
     </div>
